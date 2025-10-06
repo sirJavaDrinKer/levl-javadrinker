@@ -5,7 +5,7 @@ export default function Home() {
     
     <div className="font-sans min-h-screen pb-20 flex flex-col items-center justify-center">
       <div className="h-10"></div>
-      <div className="h-70 w-full flex">
+      <div className="h-70 w-full flex drop-shadow-md">
 
         <div className="h-full w-[10%] pl-10">
           {/* Aligned top-left for consistency */}
@@ -66,7 +66,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </div>
+      </div>  
       <div className="h-10"></div>
 
       <div className="w-full max-w-3xl text-center">
