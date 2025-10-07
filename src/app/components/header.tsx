@@ -1,6 +1,5 @@
-import { useRouter } from 'next/router'
-
 "use client";
+import { useRouter } from 'next/router'
 
 import Dropdown from "./dropdown-nav";
 
