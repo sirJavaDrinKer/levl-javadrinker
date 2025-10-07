@@ -66,13 +66,13 @@ const Dropdown: React.FC<DropdownProps> = ({
 			</button>
 			{open && (
 				<ul
-					className="absolute z-10 mt-1 w-full bg-stone-800 border border-gray-200 rounded shadow-lg max-h-60 overflow-auto"
+					className="absolute z-10 mt-1 w-full bg-stone-100 border border-gray-200 rounded shadow-lg max-h-60 overflow-auto"
 					role="listbox"
 				>
 					{options.map((option) => (
 						<li
 							key={option.value}
-							className={`px-4 py-2 cursor-pointer hover:bg-stone-700 ${selected === option.value ? "bg-stone-700" : ""}`}
+							className={`px-4 py-2 cursor-pointer hover:bg-stone-300 ${selected === option.value ? "bg-stone-300" : ""}`}
 							onClick={() => handleSelect(option.value)}
 							role="option"
 							aria-selected={selected === option.value}
