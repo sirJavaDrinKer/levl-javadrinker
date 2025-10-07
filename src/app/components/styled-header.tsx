@@ -30,14 +30,14 @@ export default function StyledHeader() {
         </div>
 
         <div className="h-full w-[80%] flex items-center justify-center"> 
-          <a href="/"><Image
+          <Image
             aria-hidden
             src="/genesis-series-title.png"
             alt="LEVL Logo"
             width={700}
             height={700}
             className="mx-auto"
-          /></a>
+          />
         </div>
 
         <div className="h-full w-[10%] pr-10">
