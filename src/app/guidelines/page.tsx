@@ -154,6 +154,9 @@ export default function Home() {
         <br />
 
         <p><strong>E.2 System of Infractions:</strong> Player infractions are recorded at and past “moderate”, a player will remain in their current standing up until the next match is played. Depending on previous actions, a player may be stuck at an infraction level for the remainder of an event.</p>
+        <p><strong>E.3 Challenging Infractions:</strong> Create a ticket to speak with us and to challenge a decision made by staff. If you are timed-out or unable to communicate due to a ban, you may reach out directly to a staff member to discuss other forums of discussion. If an agreement cannot be reached, a staff vote will be initiated.</p>
+        <p><strong>E.4 Right-to-know:</strong> Upon request, staff are required to clarify the reasoning behind our response if it is for any reason unclear.</p>
+        
       </CollapsibleSection>
     </div>
   );
