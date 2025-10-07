@@ -1,4 +1,4 @@
-// components/Header.tsx
+import { useRouter } from 'next/router'
 
 "use client";
 
@@ -16,10 +16,11 @@ export default function Header() {
             ]
           }
           onSelect={(value) => {
+            const router = useRouter();
             if (value=="nav-home") {
-              window.location.href = "/";
+              router.push('/');
             } else if (value=="nav-rules") {
-              window.location.href = "/guidelines"
+              router.push('/guidelines');
             }
           }}
         />
