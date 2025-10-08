@@ -26,7 +26,7 @@ export default function Header() {
         />
       </div>
       <div className="w-1/3 text-center font-bold text-xl">LEVL</div>
-      <div className="w-1/3"></div> 
+      <div className="w-1/3 justify-end flex"><p className="px-4 py-2 cursor-default bg-stone-300"> Proudly ran by talented goobers.</p></div> 
     </header>
   );
 }
