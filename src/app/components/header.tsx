@@ -13,14 +13,16 @@ export default function Header() {
           options={
             [
               { label: "Home", value: "nav-home" },
-              { label: "Guidelines", value: "nav-rules" }
+              { label: "Guidelines", value: "nav-rules" },
+              { label: "Our Team", value: "nav-team" }
             ]
           }
           onSelect={(value) => {
-            if (value=="nav-home") {
-              window.location.href = "/";
-            } else if (value=="nav-rules") {
-               window.location.href ="/guidelines"
+            switch (value) {
+              case "nav-home": window.location.href = "/"; break;
+              case "nav-rules": window.location.href ="/guidelines"; break;
+              default:
+                return; // Do nothing for unrecognized values
             }
           }}
         />

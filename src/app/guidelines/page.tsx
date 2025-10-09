@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CollapsibleSection from "../components/collapsible-section";
 
-export default function Home() {
+export default function Guidelines() {
   return ( 
     <div className="font-sans w-full min-h-screen pb-20 flex flex-col items-center">
         <div className="p-10 max-w-[90%] mx-auto flex flex-col items-center">
@@ -129,7 +129,7 @@ export default function Home() {
       </CollapsibleSection>
 
       <div className="p-4"></div>
-      
+
       <CollapsibleSection title="(E) Scaled Response" defaultOpen={false}>
         <p><strong>E.1 Infraction Scaling:</strong></p>
         <div className="pl-10">
