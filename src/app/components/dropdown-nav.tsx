@@ -1,5 +1,7 @@
 "use client";
 
+// this shit is NOT mine
+
 import React, { useState, useRef, useEffect } from "react";
 
 type DropdownOption = {

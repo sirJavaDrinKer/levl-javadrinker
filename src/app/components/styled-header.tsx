@@ -6,7 +6,6 @@ export default function StyledHeader() {
   return (
       <div className="h-70 w-full flex drop-shadow-md">
         <div className="h-full w-[10%] pl-10">
-          {/* Aligned top-left for consistency */}
           <div className="h-[50%] w-full flex items-start justify-start">
             <Image
               aria-hidden
@@ -16,7 +15,6 @@ export default function StyledHeader() {
               height={50}
             />
           </div>
-          {/* Aligned bottom-left as requested */}
           <div className="h-[50%] w-full flex items-end justify-start">
             <Image
               aria-hidden
@@ -41,7 +39,6 @@ export default function StyledHeader() {
         </div>
 
         <div className="h-full w-[10%] pr-10">
-          {/* Interpreted "bottom top right" as top-right */}
           <div className="h-[50%] w-full flex items-start justify-end">
             <Image
               aria-hidden
@@ -52,7 +49,6 @@ export default function StyledHeader() {
               className="rotate-[90deg]"
             />
           </div>
-          {/* Interpreted "bottom bottom right" as bottom-right */}
           <div className="h-[50%] w-full flex items-end justify-end">
             <Image
               aria-hidden

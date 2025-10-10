@@ -22,7 +22,7 @@ export default function Header() {
               case "nav-home": window.location.href = "/"; break;
               case "nav-rules": window.location.href ="/guidelines"; break;
               default:
-                return; // Do nothing for unrecognized values
+                return;
             }
           }}
         />

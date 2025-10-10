@@ -17,7 +17,6 @@ export default function CollapsibleSection({
 
   return (
     <div className="p-6 max-w-4xl mx-auto flex flex-col gap-4 bg-stone-300 rounded-3xl shadow-md">
-      {/* Header (always visible) */}
       <div
         className="w-full text-center cursor-pointer select-none flex justify-center items-center gap-2"
         onClick={() => setIsOpen(!isOpen)}
@@ -31,8 +30,6 @@ export default function CollapsibleSection({
           ▼
         </span>
       </div>
-
-      {/* Collapsible content */}
       <div
         className={`transition-all duration-500 overflow-hidden ${
           isOpen ? "max-h-[3000px] opacity-100" : "max-h-0 opacity-0"
