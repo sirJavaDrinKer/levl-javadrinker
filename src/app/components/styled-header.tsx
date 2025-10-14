@@ -7,7 +7,7 @@ export default function StyledHeader() {
       <div className="h-70 w-full flex drop-shadow-md">
         <div className="h-full w-[10%] pl-10">
           {/* Aligned top-left for consistency */}
-          <div className="h-[50%] w-full flex items-start justify-start">
+          <div className="h-[50%] w-full flex items-start justify-start min-h-[50%]">
             <Image
               aria-hidden
               src="/corner-arrow.png"

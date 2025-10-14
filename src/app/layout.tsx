@@ -35,11 +35,9 @@ export default function RootLayout({
         <Header />
 
         {children}
-
         
         <div className="fixed bottom-0 left-0 w-full h-10 bg-white z-40" />
         <div className="fixed bottom-10 left-0 w-full h-16 bg-gradient-to-t from-white to-transparent pointer-events-none z-30" />
-
         <Footer />
         
       </body>
