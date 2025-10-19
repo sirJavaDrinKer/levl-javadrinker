@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="z-50 fixed bottom-0 left-1/2 -translate-x-1/2 flex items-center justify-center w-full py-2 shadow-md">
             <a
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                href="https://youtube.com"
+                href="https://discord.gg/TuxUpbwe"
                 target="_blank"
                 rel="noopener noreferrer"
             >
