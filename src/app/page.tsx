@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="w-full max-w-3xl text-center">
         <h1 className="text-4xl font-bold mb-4">Hmm... you&apos;re early.</h1>
-        <p className="text-lg text-gray-700">Hey there stranger!</p><br />
+        <p className="text-lg text-gray-700">🤷</p><br />
         <p className="text-lg text-gray-700">It seems you&apos;ve found us before we were ready. We&apos;re working hard to get everything set up. In the meantime, feel free to join our community on Discord to stay updated!</p>
       </div>
     </div>
