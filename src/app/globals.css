@@ -16,10 +16,10 @@
   --animate-truck: truck 20s linear infinite;
   @keyframes truck {
     0% {
-      transform: translateX(100vw);
+      transform: translateX(110vw);
     }
     100% {
-      transform: translateX(-1vw);
+      transform: translateX(-10vw);
     }
   }
 }
