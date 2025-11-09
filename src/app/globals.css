@@ -12,6 +12,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {  
+  --animate-wiggle: wiggle 12s linear infinite;  
+  @keyframes wiggle {
+    0% {
+      transform: translateX(5000%);
+    }
+    100% {      
+      transform: translateX(-5000%);    
+    }
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: rgb(231, 231, 231);
@@ -24,3 +36,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+

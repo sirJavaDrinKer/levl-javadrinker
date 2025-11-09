@@ -21,6 +21,7 @@ export default function Header() {
             switch (value) {
               case "nav-home": window.location.href = "/"; break;
               case "nav-rules": window.location.href ="/guidelines"; break;
+              case "nav-team": window.location.href ="/team"; break;
               default:
                 return;
             }
