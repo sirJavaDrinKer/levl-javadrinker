@@ -12,14 +12,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@theme {  
-  --animate-wiggle: wiggle 12s linear infinite;  
-  @keyframes wiggle {
+@theme {
+  --animate-truck: truck 20s linear infinite;
+  @keyframes truck {
     0% {
-      transform: translateX(5000%);
+      transform: translateX(100vw);
     }
-    100% {      
-      transform: translateX(-5000%);    
+    100% {
+      transform: translateX(-1vw);
     }
   }
 }
