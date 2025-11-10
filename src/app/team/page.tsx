@@ -9,7 +9,7 @@ export default function Team() {
 
       <div className="relative w-full h-20 pt-10 overflow-x-hidden">
         <div className="absolute flex items-center animate-truck space-x-4">
-          <p>🚚</p>
+          <p className="text-3xl">🚚</p>
           <p className="animate-ping">💨</p>
         </div>
       </div>
