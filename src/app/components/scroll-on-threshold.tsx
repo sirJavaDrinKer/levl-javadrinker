@@ -3,7 +3,7 @@
 import { useEffect, RefObject } from "react";
 
 interface AutoScrollProps {
-  targetRef: RefObject<HTMLElement>;
+  targetRef: RefObject<HTMLElement | null>;
   threshold?: number;
   lockDuration?: number; // milliseconds
 }
