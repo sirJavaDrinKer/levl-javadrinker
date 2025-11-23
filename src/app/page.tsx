@@ -35,7 +35,7 @@ export default function Home() {
         </div>
 
         <div className="w-[85vw] h-[45vh] overflow-auto border-2 border-stone-400">
-          <h1 className="pl-2 pt-2 text-2xl font-bold text-gray-800">This feature isn't ready, sorry!</h1>
+          <h1 className="pl-2 pt-2 text-2xl font-bold text-gray-800">This feature isn&apos;t ready, sorry!</h1>
           <p className="text-lg text-gray-700 pl-2">(A bracket would be here...)</p>
         </div>
 
