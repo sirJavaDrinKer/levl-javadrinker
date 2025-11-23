@@ -4,7 +4,7 @@ import AutoScrollOnThreshold from "./components/scroll-on-threshold";
 import StyledHeader from "./components/styled-header";
 
 export default function Home() {
-  const targetRef = useRef<HTMLDivElement>(null);
+  const targetRef = useRef<HTMLDivElement | null>(null);
 
   return (
     <div className="font-sans min-h-screen pb-20 flex flex-col items-center pl-5 pr-5">
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="w-full max-w-3xl text-center mb-100">
         <h1 className="text-4xl font-bold mb-4">Ready for some fun?</h1>
         <p className="text-lg text-gray-700">View our upcoming series below.</p><br />
-        <p className="text-lg text-gray-700 animate-bounce">↓</p>
+        <div className="flex justify-center items-center"><p className="text-lg text-gray-700 animate-bounce bg-stone-300 rounded-full h-9 w-9 pt-1">↓</p></div>
       </div>
       
       <AutoScrollOnThreshold targetRef={targetRef} threshold={20} lockDuration={10} />
